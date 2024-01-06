@@ -9,10 +9,10 @@ public class IsPalindromeTest {
 
     void testIsPalindrome() {
         assertTrue(Main.IsPalindrome("Never odd or even"));
-        assertTrue(Main.IsPalindrome("Vadym myDaV"));
+        assertTrue(Main.IsPalindrome("Vladyslav valsydalV"));
         assertTrue(Main.IsPalindrome(""));
         assertTrue(Main.IsPalindrome("  "));
 
-        assertFalse(Main.IsPalindrome("privet"));
+        assertFalse(Main.IsPalindrome("hello"));
     }
 }
