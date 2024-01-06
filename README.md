@@ -1,0 +1,1 @@
+[Лабораторная 1](https://github.com/Wal4on/kalombet/tree/main/src/main/java/com/university/lab1)
