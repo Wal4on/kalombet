@@ -1,14 +1,20 @@
 package com.university.lab1;
-import static org.junit.Assert.assertTrue;
-import org.junit.Test;
-import org.junit.Before;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import java.util.List;
-import static org.junit.Assert.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class LibraryTest {
     private Library library;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         library = new Library();
         library.addBook(new Book("Книга 1", "Автор 1", "1234567890", 2020));
